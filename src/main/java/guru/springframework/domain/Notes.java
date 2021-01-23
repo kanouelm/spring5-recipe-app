@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 public class Notes {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     // here we do not need to define the cascade property because we do not
